@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title> Kruitka </title>
+   </head> 
+   <body>
+        <script>
+            var num = 23;
+
+            document.write("<br>"+num.toString());
+
+            let numn = 4335;
+
+            document.write("<br>"+numn.toExponential(3));
+            document.write("<br>"+numn.toFixed(2));
+            document.write("<br>"+numn.toPrecision(9));
+
+            document.write("<br>"+Number(true));
+            document.write("<br>"+Number(false));
+            document.write("<br>"+Number("111"));
+            document.write("<br>"+Number("11"));
+            document.write("<br>"+Number("11,23"));
+            document.write("<br>"+Number("111 3e34"));
+            document.write("<br>"+Number("Mahendra"));
+
+            document.write("<br>"+Number.MAX_VALUE);
+            document.write("<br>"+Number.MIN_VALUE);
+            document.write("<br>"+Number.POSITIVE_INFINITY);
+            document.write("<br>"+Number.NEGATIVE_INFINITY);
+
+            document.write("<br>"+p.valueOf());
+
+            document.write("<br>"+Number(Date(22-3-2343)));
+
+            document.write("<br>"+parseInt("10.34"));
+            document.write("<br>"+parseInt("20 30 24"));
+            document.write("<BR>"+parseInt("-19.23"));
+        </script>
+   </body>
+</html>
